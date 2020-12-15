@@ -8,7 +8,7 @@ public class HelloController {
 
 	@RequestMapping("/")
 	public String index() {
-		return "Fucking Work!!!";
+		return "Docker Java Web App running on container/pod: "+ System.getenv("HOSTNAME") ;
 	}
 	
 }

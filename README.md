@@ -10,7 +10,7 @@ Other useful commands: \
 \
 get docker processes: "docker ps" \
 list docker images: "docker image ls" \
-delete docker image: "docker image rm <image name:version>" \ 
+delete docker image: "docker image rm <image name:version>" \
 Get Kubernetes resources: "kubectl get all" \
 Delete pod: "kubectl delete pod <pod label>" \
 Kubernetes - delete all: "kubectl delete all --all"

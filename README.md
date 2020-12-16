@@ -1,9 +1,18 @@
 # spring-maven-docker-training
 
+[maven build steps] \
 mvn clean compile \
 mvn package \
+\
+[docker build] \
 docker build -t mvn-demo/demo-spring-app:1.0 . \
+\
+[docker deploy] \
 docker run -d -p 7002:8080 mvn-demo/demo-spring-app \
+\
+~~OR ~~ \
+\
+[Kubernetes deploy] \
 kubectl apply -f deploy.yaml \
 \
 Other useful commands: \
